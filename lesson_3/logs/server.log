@@ -1,0 +1,54 @@
+2022-08-15 18:03:09,544  DEBUG     server_db   SQLAlchemy: 1.4.40 подключена
+2022-08-15 18:03:09,563  INFO      decorators  вызов arg_parser() с параметрами () {} из функции main
+2022-08-15 18:03:09,625  INFO      server      Server start. Listen connect on :7777
+2022-08-15 18:03:33,832  INFO      server      Получен запрос на соединение от ('127.0.0.1', 50663)
+2022-08-15 18:03:33,834  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=452, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50663)>,) {} из функции run
+2022-08-15 18:03:33,835  DEBUG     server      Разбор входящего сообщения: {'action': 'presence', 'time': 1660575813.831127, 'user': {'account_name': 'test1'}}
+2022-08-15 18:03:33,837  DEBUG     server      Зарегистрировали нового пользователя test1
+2022-08-15 18:03:33,847  INFO      server      Отправитель ('127.0.0.1', 50663) отключился от сервера.
+2022-08-15 18:04:17,512  DEBUG     server_db   SQLAlchemy: 1.4.40 подключена
+2022-08-15 18:04:17,529  INFO      decorators  вызов arg_parser() с параметрами () {} из функции main
+2022-08-15 18:04:17,580  INFO      server      Server start. Listen connect on :7777
+2022-08-15 18:04:27,387  INFO      server      Получен запрос на соединение от ('127.0.0.1', 50677)
+2022-08-15 18:04:27,388  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=304, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50677)>,) {} из функции run
+2022-08-15 18:04:27,389  DEBUG     server      Разбор входящего сообщения: {'action': 'presence', 'time': 1660575867.3864334, 'user': {'account_name': 'test1'}}
+2022-08-15 18:04:27,390  DEBUG     server      Зарегистрировали нового пользователя test1
+2022-08-15 18:04:27,441  INFO      decorators  вызов send_message() с параметрами (<socket.socket fd=304, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50677)>, {'response': 200}) {} из функции process_client_message
+2022-08-15 18:06:05,221  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=304, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50677)>,) {} из функции run
+2022-08-15 18:06:05,222  DEBUG     server      Разбор входящего сообщения: {'action': 'msg', 'from': 'test1', 'to': 'test1', 'time': 1660575965.0289292, 'message': 'exit'}
+2022-08-15 18:06:05,223  INFO      decorators  вызов send_message() с параметрами (<socket.socket fd=304, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50677)>, {'action': 'msg', 'from': 'test1', 'to': 'test1', 'time': 1660575965.0289292, 'message': 'exit'}) {} из функции process_message
+2022-08-15 18:06:05,224  INFO      server      Отправлено сообщение пользователю test1 от пользователя test1.
+2022-08-15 18:06:18,905  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=304, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50677)>,) {} из функции run
+2022-08-15 18:06:18,906  DEBUG     server      Разбор входящего сообщения: {'action': 'exit', 'time': 1660575978.7479763, 'account_name': 'test1'}
+2022-08-15 18:06:18,919  INFO      server      Пользователь test1 прислал команду выхода
+2022-08-15 18:11:58,967  DEBUG     server_db   SQLAlchemy: 1.4.40 подключена
+2022-08-15 18:11:58,987  INFO      decorators  вызов arg_parser() с параметрами () {} из функции main
+2022-08-15 18:11:59,046  INFO      server      Server start. Listen connect on :7777
+2022-08-15 18:12:50,699  INFO      server      Получен запрос на соединение от ('127.0.0.1', 50794)
+2022-08-15 18:12:50,701  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=468, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50794)>,) {} из функции run
+2022-08-15 18:12:50,702  DEBUG     server      Разбор входящего сообщения: {'action': 'presence', 'time': 1660576370.6972628, 'user': {'account_name': 'guest1'}}
+2022-08-15 18:12:50,704  DEBUG     server      Зарегистрировали нового пользователя guest1
+2022-08-15 18:12:50,756  INFO      decorators  вызов send_message() с параметрами (<socket.socket fd=468, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50794)>, {'response': 200}) {} из функции process_client_message
+2022-08-15 18:13:11,523  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=468, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50794)>,) {} из функции run
+2022-08-15 18:13:11,524  DEBUG     server      Разбор входящего сообщения: {'action': 'msg', 'from': 'guest1', 'to': 'guest1', 'time': 1660576391.3022344, 'message': 'test'}
+2022-08-15 18:13:11,525  INFO      decorators  вызов send_message() с параметрами (<socket.socket fd=468, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50794)>, {'action': 'msg', 'from': 'guest1', 'to': 'guest1', 'time': 1660576391.3022344, 'message': 'test'}) {} из функции process_message
+2022-08-15 18:13:11,526  INFO      server      Отправлено сообщение пользователю guest1 от пользователя guest1.
+2022-08-15 18:23:52,117  DEBUG     server_db   SQLAlchemy: 1.4.40 подключена
+2022-08-15 18:23:52,137  INFO      decorators  вызов arg_parser() с параметрами () {} из функции main
+2022-08-15 18:23:52,196  INFO      server      Server start. Listen connect on :7777
+2022-08-15 18:24:02,461  INFO      server      Получен запрос на соединение от ('127.0.0.1', 51035)
+2022-08-15 18:24:02,463  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=332, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51035)>,) {} из функции run
+2022-08-15 18:24:02,464  DEBUG     server      Разбор входящего сообщения: {'action': 'presence', 'time': 1660577042.4586508, 'user': {'account_name': 'guest2'}}
+2022-08-15 18:24:02,465  DEBUG     server      Зарегистрировали нового пользователя guest2
+2022-08-15 18:24:02,514  INFO      decorators  вызов send_message() с параметрами (<socket.socket fd=332, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51035)>, {'response': 200}) {} из функции process_client_message
+2022-08-15 18:24:07,572  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=332, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51035)>,) {} из функции run
+2022-08-15 18:24:07,574  DEBUG     server      Разбор входящего сообщения: {'action': 'exit', 'time': 1660577047.4535613, 'account_name': 'guest2'}
+2022-08-15 18:24:07,587  INFO      server      Пользователь guest2 прислал команду выхода
+2022-08-15 18:24:17,825  INFO      server      Получен запрос на соединение от ('127.0.0.1', 51042)
+2022-08-15 18:24:17,826  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=652, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51042)>,) {} из функции run
+2022-08-15 18:24:17,827  DEBUG     server      Разбор входящего сообщения: {'action': 'presence', 'time': 1660577057.8258064, 'user': {'account_name': 'guest3'}}
+2022-08-15 18:24:17,829  DEBUG     server      Зарегистрировали нового пользователя guest3
+2022-08-15 18:24:17,856  INFO      decorators  вызов send_message() с параметрами (<socket.socket fd=652, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51042)>, {'response': 200}) {} из функции process_client_message
+2022-08-15 18:24:21,419  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=652, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 51042)>,) {} из функции run
+2022-08-15 18:24:21,419  DEBUG     server      Разбор входящего сообщения: {'action': 'exit', 'time': 1660577060.9820735, 'account_name': 'guest3'}
+2022-08-15 18:24:21,430  INFO      server      Пользователь guest3 прислал команду выхода
