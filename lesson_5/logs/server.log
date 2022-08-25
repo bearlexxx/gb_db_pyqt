@@ -133,3 +133,6 @@
 2022-08-21 21:14:30,121  INFO      decorators  вызов get_message() с параметрами (<socket.socket fd=1560, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 53562)>,) {} из функции run
 2022-08-21 21:14:30,122  DEBUG     server      Разбор входящего сообщения: {'action': 'exit', 'time': 1661105669.7146306, 'account_name': 'guest1'}
 2022-08-21 21:14:30,135  INFO      server      Пользователь guest1 прислал команду выхода
+2022-08-21 22:06:12,124  DEBUG     server_db   SQLAlchemy: 1.4.40 подключена
+2022-08-21 22:06:12,392  INFO      decorators  вызов arg_parser() с параметрами ('7777', '') {} из функции main
+2022-08-21 22:06:12,485  INFO      server      Server start. Listen connect on :7777
